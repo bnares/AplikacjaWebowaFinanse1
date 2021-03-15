@@ -14,11 +14,29 @@ width:500px;
 height:300px;
 margin-left: auto;
 margin-right:auto;
-margin-top:150px;
+margin-top:80px;
+text-align: center;
 background-color: white;
 -webkit-box-shadow: 5px 5px 13px 4px rgba(0,0,0,0.9); 
 box-shadow: 5px 5px 13px 4px rgba(0,0,0,0.9);
 	
+}
+
+
+.title
+{
+width:700px;
+margin-left:auto;
+margin-right: auto;
+text-align:center;
+margin-top:100px;
+
+}
+
+h1
+{
+text-transform: uppercase;
+color: white;
 }
 
 
@@ -81,7 +99,7 @@ color: #428c42;
 .rejestruj
 {
 float: left;
-width:150px;
+width:200px;
 }
 
 .rejestruj input
@@ -103,7 +121,7 @@ margin-top:0;
 
 .zaloguj input
 {
-margin-left: 150px;	
+margin-left: 100px;	
 }
 
 
