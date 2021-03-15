@@ -77,3 +77,62 @@ color: #428c42;
 	
 }
 
+
+.rejestruj
+{
+float: left;
+width:150px;
+}
+
+.rejestruj input
+{
+	
+	margin-left: 50px;
+}
+
+
+
+.zaloguj
+{
+float: left;
+width:150px;
+margin-top:0;
+
+	
+}
+
+.zaloguj input
+{
+margin-left: 150px;	
+}
+
+
+input[type = submit]
+{
+	background-color: #36b03c;
+	color: white;
+	cursor: pointer;
+	letter-spacing: 2px;
+	border-radious : 5px;
+	width: 150px;
+	height:40px;
+	margin-top: 20px;
+	font-size: 20px;
+	
+}
+
+
+input[type = submit]:focus
+{
+	
+-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.9); 
+box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.9);	
+}
+
+input[type = submit]:hover
+{
+	background-color: #37b93d;
+}
+
+
+
