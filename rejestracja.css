@@ -1,6 +1,20 @@
 body
 {
+	/* Background pattern from Toptal Subtle Patterns */
+background-image: url("oriental.png")	;
+font-family: 'Lato', sans-serif;
+color: #428c42
 	
-background-image: url("oriental.png")	
+}
+
+.container
+{
+
+width:500px;
+height:300px;
+margin-left: auto;
+margin-right:auto;
+margin-top:150px;
+background-color: white;
 	
 }
