@@ -1,0 +1,89 @@
+body
+{
+/* Background pattern from Toptal Subtle Patterns */
+font-family: 'Lato', sans-serif;
+background-image: url("paper.png");
+margin:0;
+	
+}
+
+.title
+{
+margin:0;	
+}
+
+
+.logo
+{
+	
+height:70px;
+background-color: gray;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-size: 30px;
+text-align: center;
+line-height:70px;
+vertical-align: center;
+margin:none;
+}
+
+
+#topmenu 
+{
+	text-align: center;
+	background-color: #666;
+	height:30px;
+	
+}
+
+.mylist 
+{
+
+margin:0;
+list-style-type: none;
+font-size: 20px;
+line-height:20px;
+	
+}
+
+
+
+
+
+
+.mylist > li 
+{
+display: inline-block;	
+border-right: 1px dashed black;
+height:30px;
+margin:none;
+}
+
+
+.mylist > li:first-child
+{
+	
+border-left: 1px dashed black;
+
+}
+
+.mylist a 
+{
+	
+text-decoration: none;
+color: black;
+text-align:center;
+padding-left:5px;
+padding-right:5px;
+height:30px;
+width:150px;
+display: block;
+line-height:30px;
+vertical-align: center;
+}
+
+.mylist a:hover
+{
+	
+background-color: gray;
+}
