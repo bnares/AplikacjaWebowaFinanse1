@@ -36,14 +36,16 @@ margin:none;
 	
 }
 
+
 .mylist 
 {
 
 margin:0;
 list-style-type: none;
 font-size: 20px;
-line-height:20px;
-width:700px;
+line-height:30px;
+width:1100px;
+height:30px;
 margin-left:auto;
 margin-right:auto;
 	
@@ -60,6 +62,7 @@ display: inline-block;
 border-right: 1px dashed black;
 height:30px;
 margin:none;
+width:170px;
 }
 
 
@@ -79,7 +82,9 @@ text-align:center;
 padding-left:5px;
 padding-right:5px;
 height:30px;
-width:150px;
+width:170px;
+padding:0;
+margin:0;
 display: block;
 line-height:30px;
 vertical-align: center;
@@ -89,71 +94,4 @@ vertical-align: center;
 {
 	
 background-color: gray;
-}
-
-
-
-.header2
-{
-width: 100%;
-text-align:center;
-float:left;
-height:30px;
-line-height: 30px;
-vertical-align:center;
-font-size:25px;
-display: inline-block;
-margin: 0 auto;
-
-}
-
-
-.header2 h2
-{
-margin:0 auto;
-font-size:20px;
-text-transform: uppercase;
-text-align:center;
-letter-spacing:2px;
-text-decoration: underline;
-
-}
-
-.setuplogo
-{
-width:700px;
-height:50px;
-text-align:center;
-margin-left:auto;
-margin-right:auto;
-margin-top:50px;
-
-}
-
-
-
-.usersetup
-{
-
-width: 200px;
-margin-left:auto;
-margin-right:auto;
-	
-}
-
-input[type = submit]
-{
-background-color: #36b03c;
-cursor: pointer;
-color:white;
-width:170px;
-height:40px;
-text-align:center;
-	
-}
-
-input[type = submit]:hover
-{
-background-color: #37b93d;
-color: red;
 }
