@@ -49,132 +49,151 @@
 			<article>
 				
 				<form action="order.php" method="post" enctype = "multipart/form-data">
-			
-					<div class = "money">
 					
-						<fieldset>
+					<section>
+						<div class = "money">
 						
-							<legend>Write Amount od money: </legend>
-							<div style = "text-align:center;">
-								<input type = "number" step = "1" min = "0" required>
-							</div>
-						
-						</fieldset>
-					
-					</div>
-					
-					<div style = "height:50px;"></div>
-					
-					
-					<div class = "date">
-					
-						<fieldset>
-						
-						<legend>Write a date:</legend>
-						<div style = "text-align: center;">
-						
-							<input type = "date" required>
+							<fieldset>
+							
+								<legend>Write Amount od money: </legend>
+								<div style = "text-align:center;">
+									<input type = "number" step = "1" min = "0" required>
+								</div>
+							
+							</fieldset>
 						
 						</div>
-						
-						</fieldset>
-						
 					
-					</div>
-					
+					</section>
 					
 					<div style = "height:50px;"></div>
 					
 					
 					
-					<div class = "platnosc">
-					
-						<fieldset>
+					<section>
+						<div class = "date">
 						
-							<legend>Payment method</legend>
+							<fieldset>
 							
+							<legend>Write a date:</legend>
+							<div style = "text-align: center;">
 							
-							<div style = "text-align:center;">
-							
-								<label>Cash<input type = "radio" name = "payment"></label>
-								<label>Credit Card<input type = "radio" name = "payment" checked></label>
-								<label>Debit card<input type = "radio" name = "payment"></label>
+								<input type = "date" required>
 							
 							</div>
+							
+							</fieldset>
+							
 						
-						</fieldset>
+						</div>
 					
-					</div>
+					</section>
 					
 					
 					<div style = "height:50px;"></div>
 					
 					
-					<div class = "category">
-					
-						<fieldset>
+					<section>
+						<div class = "platnosc">
 						
-							<legend>Category expens:</legend>
-						
-							<div style = "text-align:center;">
+							<fieldset>
 							
-							<select name = "select" id = "expenseCategory">
+								<legend>Payment method</legend>
 								
 								
-									<option value = "1">Food</option>
-									<option value = "2">Flat/Home</option>
-									<option value = "3">Transport</option>
-									<option value = "4">Telecomunication</option>
-									<option value = "5">Health</option>
-									<option value = "6">Clothes</option>
-									<option value = "7">Higiene</option>
-									<option value = "8">Childeren</option>
-									<option value = "9" selected>Education</option>
-									<option value = "10">Books</option>
-									<option value = "11">Savings</option>
-									<option value = "12">Pension</option>
-									<option value = "13">Debts to pay</option>
-									<option value = "14">Donations</option>
-									<option value = "15">Trip</option>
+								<div style = "text-align:center;">
+								
+									<label>Cash<input type = "radio" name = "payment"></label>
+									<label>Credit Card<input type = "radio" name = "payment" checked></label>
+									<label>Debit card<input type = "radio" name = "payment"></label>
+								
+								</div>
+							
+							</fieldset>
+						
+						</div>
+					
+					</section>
+					
+					
+					<div style = "height:50px;"></div>
+					
+					<section>
+						<div class = "category">
+						
+							<fieldset>
+							
+								<legend>Category expens:</legend>
+							
+								<div style = "text-align:center;">
+								
+								<select name = "select" id = "expenseCategory">
 									
+									
+										<option value = "1">Food</option>
+										<option value = "2">Flat/Home</option>
+										<option value = "3">Transport</option>
+										<option value = "4">Telecomunication</option>
+										<option value = "5">Health</option>
+										<option value = "6">Clothes</option>
+										<option value = "7">Higiene</option>
+										<option value = "8">Childeren</option>
+										<option value = "9" selected>Education</option>
+										<option value = "10">Books</option>
+										<option value = "11">Savings</option>
+										<option value = "12">Pension</option>
+										<option value = "13">Debts to pay</option>
+										<option value = "14">Donations</option>
+										<option value = "15">Trip</option>
+										
+								
+								</select>
+								
+								</div>
 							
-							<select>
 							
-							</div>
+							
+							</fieldset>
+			
 						
-						
-						
-						</fieldset>
-		
+						</div>
 					
-					</div>
+					
+					</section>
 					
 					
 					<div style = "height:50px;"></div>
 					
 					
-					<div class = "comment">
-					
-						<fieldset>
+					<section>
+						<div class = "comment">
 						
-							<legend>Add Comment</legend>
-							<textarea name ="comm" id = "comm" rows = "5" cols = "100" maxlength = "500" minlength = "10"</textarea></textarea>
-						
-						</fieldset>
-					
-					</div>
-					
-					
-					
-					<div class = "Confirmation">
-					
-						<div class = "button">
-						
-							<input type = "submit" value = "Confirm">
+							<fieldset>
+							
+								<legend>Add Comment</legend>
+								<textarea name ="comment" id = "comment" rows = "5" cols = "100" maxlength = "500" minlength = "10"</textarea></textarea>
+							
+							</fieldset>
 						
 						</div>
 					
-					</div>
+					</section>
+					
+					<div style = "height:50px;"></div>
+					
+					<secttion>
+						<div class = "Confirmation">
+						
+							<div class = "button">
+							
+								<input type = "submit" value = "Confirm">
+							
+							</div>
+						
+						</div>
+					
+					</section>
+					
 				</form>
 			
 			</article>

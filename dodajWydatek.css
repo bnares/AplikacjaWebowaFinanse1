@@ -110,6 +110,7 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 100px;
 margin-bottom: 100px;
+padding:50px 20px;
 
 }
 
@@ -216,9 +217,53 @@ margin-right:auto;
 
 }
 
-#comm
+#comment
 {
 resize:none;	
 }
+
+
+.Confirmation
+{
+width:300px;
+margin-left:auto;
+margin-right:auto;
+	
+}
+
+.button
+{
+	margin-left:auto;
+margin-right:auto;
+}
+
+
+input[type = submit]
+{
+width:200px;
+height:70px;
+color:white;
+background-color: #36b03c;
+cursor: pointer;
+font-size:30px;
+letter-spacing:1px;
+text-transform: uppercase;
+	
+}
+
+
+input[type = submit]:hover
+{
+	background-color: #37b93d;
+}
+
+
+input[type = submit]:focus
+{
+	
+-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.9); 
+box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.9);	
+}
+
 
 
