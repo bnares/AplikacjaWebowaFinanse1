@@ -34,6 +34,7 @@ margin:none;
 	text-align: center;
 	background-color: #666;
 	height:30px;
+	padding:0;
 	
 }
 
@@ -171,6 +172,7 @@ input[type = date]
 width: 300px;
 height:30px;
 border: 1px dotted blue;
+text-align:center;
 
 
 }
@@ -191,10 +193,22 @@ background-color: #e9f3e9;
 }
 
 
+#expenseCategory
+{
+text-align:center;	
+}
+
+option
+{
+text-align:center;	
+}
+
+
 select
 {
 	width: 300px;
 height:30px;
+text-align-last:center;
 }
 
 select:hover
@@ -214,6 +228,7 @@ fieldset
 width: 600px;
 margin-left:auto;
 margin-right:auto;
+text-align:center;
 
 }
 
